@@ -4,12 +4,13 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-export default function Logo() {
+export default function Header() {
   const SSafyURL = require('../../assets/ssafy.png');
+  const SSAfy2URL = require('../../assets/SsafyLogo.png');
   return (
     <View style={styles.header}>
       <Image source={SSafyURL} style={styles.logo} />
-      <Image source={SSafyURL} style={styles.logo} />
+      <Image source={SSAfy2URL} style={styles.logo} />
     </View>
   );
 }
@@ -23,14 +24,13 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     width: '100%',
     position: 'absolute',
-    top: hp('0.02%'),
+    top: hp('0.2%'),
     left: 0,
     paddingHorizontal: windowWidth * 0.015625,
   },
   logo: {
-    width: wp('10%'),
+    width: wp('15%'),
     height: hp('10%'),
     resizeMode: 'contain',
-    marginBottom: hp('0.01%'),
   },
 });
