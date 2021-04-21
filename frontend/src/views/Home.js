@@ -5,14 +5,16 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import Logo from '../components/elements/Logo';
+import Header from '../components/elements/Header';
 import Layout from '../components/elements/Layout';
 import BasicButton from '../components/elements/BasicButton';
+import BackgroundAbsolute from '../components/elements/BackgroundAbsolute';
 export default function Home() {
+  const imageSrc = require('../assets/Background.jpg');
   return (
-    <View style={styles.container}>
-      <Logo></Logo>
-      <Layout width={wp('70%')} height={hp('70%')} opacity={0.2}>
+    <BackgroundAbsolute imageSrc={imageSrc}>
+      <Header></Header>
+      <Layout width={wp('70%')} height={hp('70%')} opacity={0.1}>
         <Text style={styles.text}>직종을 선택하세요</Text>
         <View style={styles.buttonContainer}>
           <BasicButton
@@ -27,17 +29,11 @@ export default function Home() {
           />
         </View>
       </Layout>
-    </View>
+    </BackgroundAbsolute>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'black',
-  },
   buttonContainer: {
     flex: 8,
     flexDirection: 'row',
