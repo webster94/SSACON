@@ -10,7 +10,7 @@ import Layout from '../components/elements/Layout';
 import BasicButton from '../components/elements/BasicButton';
 import BackgroundAbsolute from '../components/elements/BackgroundAbsolute';
 import AuthTextInput from '../components/elements/AuthTextInput';
-export default function Home() {
+export default function Login({navigation}) {
   const imageSrc = require('../assets/Background.jpg');
   return (
     <BackgroundAbsolute imageSrc={imageSrc}>
@@ -35,6 +35,9 @@ export default function Home() {
             customFontSize={hp('2.5%')}
             btnWidth={wp('60%')}
             btnHeight={hp('6%')}
+            onHandlePress={() => {
+              navigation.navigate('List');
+            }}
           />
         </View>
       </Layout>

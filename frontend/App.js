@@ -13,6 +13,9 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Home from './src/views/Home';
 import Main from './src/views/Main';
 import Login from './src/views/Login';
+import CheckAttandance from './src/views/CheckAttandance';
+import EmployeeList from './src/views/EmployeeList';
+import List from './src/views/List';
 import Navigation from './src/components/elements/Navigation';
 const Stack = createStackNavigator();
 const App = () => {
@@ -22,6 +25,9 @@ const App = () => {
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Main" component={Main} />
         <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="List" component={List} />
+        <Stack.Screen name="CheckAttandance" component={CheckAttandance} />
+        <Stack.Screen name="EmployeeList" component={EmployeeList} />
         <Stack.Screen name="Navigation" component={Navigation} />
       </Stack.Navigator>
     </NavigationContainer>

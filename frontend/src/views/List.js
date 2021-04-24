@@ -1,36 +1,45 @@
-import React, {useEffect, useState} from 'react';
-import {StyleSheet, View, Image, Button, Text} from 'react-native';
-
+import React from 'react';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import {StyleSheet, View, Text} from 'react-native';
 import Header from '../components/elements/Header';
 import Layout from '../components/elements/Layout';
 import BasicButton from '../components/elements/BasicButton';
 import BackgroundAbsolute from '../components/elements/BackgroundAbsolute';
-export default function Home({navigation}) {
+export default function List({navigation}) {
   const imageSrc = require('../assets/Background.jpg');
+
   return (
     <BackgroundAbsolute imageSrc={imageSrc}>
-      <Header back={true}></Header>
       <Layout width={wp('70%')} height={hp('70%')} opacity={0.1}>
-        <Text style={styles.text}>직종을 선택하세요</Text>
         <View style={styles.buttonContainer}>
           <BasicButton
-            text={'근로자'}
+            text={'출석'}
             customFontSize={hp('3%')}
             btnWidth={wp('30%')}
+            borderRadius={999}
             onHandlePress={() => {
-              navigation.navigate('Login');
+              navigation.navigate('CheckAttandance');
+            }}
+          />
+          <BasicButton
+            text={'모니터'}
+            customFontSize={hp('3%')}
+            btnWidth={wp('30%')}
+            borderRadius={999}
+            onHandlePress={() => {
+              navigation.navigate('Main');
             }}
           />
           <BasicButton
             text={'관리자'}
             customFontSize={hp('3%')}
             btnWidth={wp('30%')}
+            borderRadius={999}
             onHandlePress={() => {
-              navigation.navigate('Login');
+              navigation.navigate('EmployeeList');
             }}
           />
         </View>
@@ -41,21 +50,10 @@ export default function Home({navigation}) {
 
 const styles = StyleSheet.create({
   buttonContainer: {
-    flex: 8,
-    flexDirection: 'row',
+    flex: 1,
+    flexDirection: 'column',
     width: '100%',
     justifyContent: 'space-evenly',
     alignItems: 'center',
-  },
-  button: {
-    width: wp('40%'),
-    height: hp('40%'),
-  },
-  text: {
-    position: 'absolute',
-    top: hp('10%'),
-    marginTop: hp('10%'),
-    fontSize: hp('3%'),
-    color: 'white',
   },
 });

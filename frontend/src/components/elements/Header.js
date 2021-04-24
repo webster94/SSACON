@@ -4,12 +4,23 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-export default function Header() {
+import {useNavigation} from '@react-navigation/core';
+import ArrowButton from '../elements/ArrowButton';
+export default function Header({back, onHandlePress}) {
   const SSafyURL = require('../../assets/ssafy.png');
   const SSAfy2URL = require('../../assets/SsafyLogo.png');
+  const navigation = useNavigation();
   return (
     <View style={styles.header}>
-      <Image source={SSafyURL} style={styles.logo} />
+      {back ? (
+        <ArrowButton
+          onHandlePress={() =>
+            onHandlePress ? onHandlePress() : navigation.goBack()
+          }
+        />
+      ) : (
+        <Image source={SSafyURL} style={styles.logo} />
+      )}
       <Image source={SSAfy2URL} style={styles.logo} />
     </View>
   );
