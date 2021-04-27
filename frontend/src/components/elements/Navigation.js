@@ -23,6 +23,16 @@ export default function Navigation({navigation}) {
         onPress={() => navigation.navigate('CheckAttandance')}
       />
       <Text> </Text>
+      <Button
+        title="BeaconClicked"
+        onPress={() => navigation.navigate('BeaconClicked')}
+      />
+      <Text> </Text>
+      <Button
+        title="PersonClicked"
+        onPress={() => navigation.navigate('PersonClicked')}
+      />
+      <Text> </Text>
     </ScrollView>
   );
 }

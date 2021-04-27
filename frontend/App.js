@@ -16,6 +16,8 @@ import Login from './src/views/Login';
 import CheckAttandance from './src/views/CheckAttandance';
 import EmployeeList from './src/views/EmployeeList';
 import List from './src/views/List';
+import BeaconClicked from './src/views/BeaconClicked';
+import PersonClicked from './src/views/PersonClicked';
 import Navigation from './src/components/elements/Navigation';
 const Stack = createStackNavigator();
 const App = () => {
@@ -29,6 +31,8 @@ const App = () => {
         <Stack.Screen name="CheckAttandance" component={CheckAttandance} />
         <Stack.Screen name="EmployeeList" component={EmployeeList} />
         <Stack.Screen name="Navigation" component={Navigation} />
+        <Stack.Screen name="BeaconClicked" component={BeaconClicked} />
+        <Stack.Screen name="PersonClicked" component={PersonClicked} />
       </Stack.Navigator>
     </NavigationContainer>
   );
