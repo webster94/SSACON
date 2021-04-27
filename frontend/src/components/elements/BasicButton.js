@@ -28,7 +28,7 @@ function BasicButton({
           paddingRight: paddingHorizon || windowWidth * 0.00859375,
           paddingBottom: paddingVertical || windowHeight * 0.014323,
           paddingTop: paddingVertical || windowHeight * 0.014323,
-          backgroundColor: disabled ? 'grey' : backgroundColor || 'blue',
+          backgroundColor: disabled ? 'grey' : backgroundColor || '#4C8FF3',
           width: btnWidth || windowWidth * 0.4,
           height: btnHeight || windowHeight * 0.08,
           borderRadius: borderRadius || 14,
