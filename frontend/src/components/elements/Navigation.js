@@ -33,6 +33,9 @@ export default function Navigation({navigation}) {
         onPress={() => navigation.navigate('PersonClicked')}
       />
       <Text> </Text>
+
+      <Button title="TestBeacon" onPress={() => navigation.navigate('TestBeaconScan')} />
+      <Text> </Text>
     </ScrollView>
   );
 }
