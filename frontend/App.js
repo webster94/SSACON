@@ -19,6 +19,8 @@ import List from './src/views/List';
 import BeaconClicked from './src/views/BeaconClicked';
 import PersonClicked from './src/views/PersonClicked';
 import Navigation from './src/components/elements/Navigation';
+import TestBeaconScan from './src/views/TestBeaconScan';
+
 const Stack = createStackNavigator();
 const App = () => {
   return (
@@ -33,6 +35,7 @@ const App = () => {
         <Stack.Screen name="Navigation" component={Navigation} />
         <Stack.Screen name="BeaconClicked" component={BeaconClicked} />
         <Stack.Screen name="PersonClicked" component={PersonClicked} />
+        <Stack.Screen name="TestBeaconScan" component={TestBeaconScan} />
       </Stack.Navigator>
     </NavigationContainer>
   );
