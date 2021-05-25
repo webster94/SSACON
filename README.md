@@ -27,11 +27,59 @@ SSACON은 Samsung SDI와 기업연계 프로젝트로 '라인 내 리스크 제�
 
 
 ## 목차
+
+- [배경](#배경)
+- [계획](#계획)
+- [역할](#역할)
+- [상세설명](#상세설명)
+
 * [설치](#설치)
 * [사용 가이드](#사용-가이드)
 * [API 문서](#api-문서)
 * [참고 사항](#참고-사항)
 * [고객 문의](#고객-문의)
+
+
+
+## 배경
+
+![image-20210526011713320](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526011713320.png)
+
+## 계획
+
+![image-20210526004439841](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526004439841.png)
+
+
+
+## 역할
+
+|  이름  | 역할                                |
+| :----: | ----------------------------------- |
+| 박승범 | 팀장, 비콘 블루투스 통신            |
+| 구진범 | 부팀장, 백엔드                      |
+| 신민호 | 프론트엔드, UCC                     |
+| 정현우 | 프론트엔드 블루투스 백그라운드 통신 |
+| 차수연 | 프론트엔드, 발표                    |
+
+## 페이지
+
+![image-20210526010053527](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526010053527.png)
+
+> 로그인페이지
+
+![image-20210526010212714](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526010212714.png)
+
+>  관리자 목록
+
+![image-20210526010249829](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526010249829.png)
+
+> 근로자 목록
+
+
+
+![image-20210526011344606](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526011344606.png)
+
+> 모니터링
 
 
 
