@@ -43,11 +43,11 @@ SSACON은 Samsung SDI와 기업연계 프로젝트로 '라인 내 리스크 제�
 
 ## 배경
 
-![image-20210526011713320](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526011713320.png)
+![image-20210526011713320](./README.assets/image-20210526011713320.png)
 
 ## 계획
 
-![image-20210526004439841](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526004439841.png)
+![image-20210526004439841](./README.assets/image-20210526004439841.png)
 
 
 
@@ -63,21 +63,21 @@ SSACON은 Samsung SDI와 기업연계 프로젝트로 '라인 내 리스크 제�
 
 ## 페이지
 
-![image-20210526010053527](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526010053527.png)
+![image-20210526010053527](./README.assets/image-20210526010053527.png)
 
 > 로그인페이지
 
-![image-20210526010212714](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526010212714.png)
+![image-20210526010212714](./README.assets/image-20210526010212714.png)
 
 >  관리자 목록
 
-![image-20210526010249829](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526010249829.png)
+![image-20210526010249829](./README.assets/image-20210526010249829.png)
 
 > 근로자 목록
 
 
 
-![image-20210526011344606](C:\Users\multicampus\Desktop\SSACON\s04p31b101\README.assets\image-20210526011344606.png)
+![image-20210526011344606](./README.assets/image-20210526011344606.png)
 
 > 모니터링
 
